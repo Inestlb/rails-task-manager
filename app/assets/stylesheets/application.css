@@ -1,4 +1,4 @@
-/*
+/*.no
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+.no-bullets {
+  list-style-type: none;
+  padding-left: 0;
+}
